@@ -15,8 +15,8 @@
       "set_temperature_hvac_mode_auto": "aвто[ {temperature}]",
       "set_hvac_mode": "установить режим[ {hvac_mode}]",
       "set_preset_mode": "выбрать набор настроек[ {preset_mode}]",
-      "set_fan_mode": "set fan mode[ to {fan_mode}]",
-      "set_swing_mode": "set swing mode[ to {swing_mode}]"
+      "set_fan_mode": "установить режим кондиционера[ to {fan_mode}]",
+      "set_swing_mode": "установить режим жалюзи[ to {swing_mode}]"
     },
     "cover": {
       "close_cover": "закрыть",
@@ -104,17 +104,17 @@
         "description": "При этом некоторые настройки будут потеряны. Вы хотите продолжить?"
       },
       "weekday_picker": {
-        "title": "Repeated days for schedule",
-        "choose": "Choose..."
+        "title": "Повторяющиеся дни в расписании",
+        "choose": "Выбор..."
       },
       "entity_picker": {
-        "title": "Choose entities",
-        "choose": "Choose...",
-        "no_results": "No matching items found"
+        "title": "Выберите сущности",
+        "choose": "Выбор...",
+        "no_results": "Соответствий не найдено"
       },
       "action_picker": {
-        "title": "Choose action",
-        "show_all": "Show all supported entities"
+        "title": "Выберите действие",
+        "show_all": "Показать все поддерживаемые сущности"
       }
     },
     "panel": {
@@ -131,19 +131,19 @@
         "additional_tasks": "{number} больше {if number is 1} задача {else} задач"
       },
       "editor": {
-        "repeated_days": "Repeated days",
-        "start_time": "Start time",
-        "stop_time": "End time",
-        "action": "Action",
-        "add_action": "Add action",
+        "repeated_days": "Дни повторения",
+        "start_time": "Время начала",
+        "stop_time": "Время окончания",
+        "action": "Действие",
+        "add_action": "Добавить действие",
         "select_timeslot": "Выберите временной слот",
         "toggle_single_mode": "В простой режим",
         "toggle_scheme_mode": "В режим схемы",
         "validation_errors": {
-          "overlapping_time": "Schedule has overlapping timeslots",
-          "missing_target_entity": "One or more actions are missing a target entity",
-          "missing_service_parameter": "One or more actions are missing a required setting",
-          "missing_action": "Schedule has no actions"
+          "overlapping_time": "В расписании есть перекрывающиеся интервалы",
+          "missing_target_entity": "Одно или несколько действий не содержат сущности",
+          "missing_service_parameter": "Одному или нескольким действиям не хватает необходимой настройки",
+          "missing_action": "В расписании нет действий"
         }
       },
       "options": {
